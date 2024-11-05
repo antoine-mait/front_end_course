@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>survey form</title>
+      <link rel="stylesheet" href="styles.css" />
+    </head>
+      <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Please fill out this form with the required information</p>
+        <form id="survey-form">
+          <fieldset>
+            <label for="name" id="name-label">Enter your Name <input required id="name" type="text" placeholder="Antoine" required/>
+            </label>
+            <label for="email" id="email-label">Enter your Email <input required id="email" type="email" placeholder="emailpro@gmail.com" required/>
+            </label>
+            <label for="number" id="number-label">Enter a Number <input id="number" type="number" min="0" max="100" placeholder="1 to 99" required/>
+            </label>
+          </fieldset>
+          <fieldset>
+            <label>
+              <select id="dropdown">
+                <option type="radio" name="">Options</option>
+                <option type="radio" name="option" >Option A </option>
+                <option type="radio" name="option" >Option B</option>
+              </select>
+            </label>
+            <label for="radio-option">
+              <input value="1" type="radio" name="radio-option" required/><a>Option 1</a>
+            </label>
+            <label for="radio-option">
+              <input value="2" type="radio" name="radio-option" required/><a>Option 2</a>
+            </label>
+            <label for="radio-option3">
+              <input value="3" type="checkbox" name="radio-option3" required/><a>Option 3</a>
+              </label>
+            <label for="radio-option4">
+              <input value="4" type="checkbox" name="radio-option4" required/><a>Option 4</a>
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="comment">
+              <textarea id="comment" rows="5" cols="50" placeholder="Add additionnal comment if needed" required></textarea>
+            </label>
+            <input type="submit" id="submit"/>
+        </form>
