@@ -1,0 +1,192 @@
+* {
+    background-color: #2E2924;
+    color: white;
+    box-sizing: border-box;
+  }
+  .small{
+    padding:0;
+    margin:-1px;
+    text-align: center;
+  }
+  .bold {
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;  
+  }
+  .stuff {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase; 
+  }
+  
+  #tribute-link {
+    text-decoration: none;
+  }
+  .small-bold {
+    font-weight: 800;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  .centered-text {
+    display: flex;
+    justify-content: center; /* Centers the inner div horizontally */
+  }
+  
+  .vertical-text {
+    text-align: center; /* Centers the text inside the container */
+    display: block; /* Ensures the text is stacked vertically */
+  }
+  
+  .vertical-text span {
+    background-color: #6AA84F;
+    display: block; /* Forces each word to be on its own line */
+  }
+  
+  #img-div {
+    background-color: #6AA84F;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;      /* Centers content vertically */
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-top: -40px;
+    position: relative;
+    z-index: 2;
+    width: 100%;              /* Ensures the container takes the full width */
+    text-align: center;       /* Centers text if flex doesn't work */
+  }
+  
+  #img-div a{
+    margin:10px;
+    text-decoration: none;  
+    background-color: #6AA84F;
+  }
+  #img-div #image{  
+    background-color: #6AA84F;
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */ 
+  }
+  #img-caption {
+    width: 100%; /* Ensures the container takes full width */
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+  }
+  .title {
+    background-color: #6AA84F;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;  /* Centers title horizontally */
+    align-items: center;      /* Centers title vertically */
+    margin: 0; 
+    width: 100%;              /* Ensures it takes up the full width */
+    text-align: center;       /* Ensures the text is centered if flex doesn't work */
+  }
+  .character-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 10px;
+  }
+  
+  .equipment-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between equipment items */
+  }
+  .Character-box {
+    width: 415px; /* Adjust width of character image */
+    background-color: #3C3630;
+    height: auto;
+    border-radius: 15px;
+    flex-shrink: 0; /* Prevent shrinking */
+  }
+  .Character-box img {
+    width: 370px; /* Adjust width of character image */
+    background-color: #3C3630;
+    height: auto;
+    position:relative;
+    right:-15px;
+    border-radius: 15px;
+  }
+  .level{
+    width:auto;
+    background-color: #3C3630;
+    margin-left:20px;
+  }
+  input::placeholder {
+    text-align: center;
+  }
+  .number{
+    width:35px;
+    background-color: #3C3932;
+    padding: 1px 4px;
+    border: 2px solid #2E2924; 
+    border-radius: 4px; 
+  }
+  .equipment {
+    width: 100px;
+    height: 100px;
+    background-color: #3C3630;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .item_text{
+    background-color: #3C3630;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 1px 4px;
+    border: 2px solid #2E2924; 
+    border-radius: 4px; 
+  }
+  
+  .equipment img {
+    width: 80%;
+    height: auto;
+    background-color: #3C3630;
+    border-radius: 5px; 
+  }
+  .Bottom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Aligns content to the left */
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .Dofus-container {
+    display: flex;
+    justify-content: center; /* Keeps Dofus items aligned to the left */
+    gap: 10px;
+  }
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .bg {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
