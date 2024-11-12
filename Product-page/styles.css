@@ -33,7 +33,7 @@ body{
   align-items: center;
   width: 100%;
 }
-.nav-link{
+.nav-link, .nav-bot , .nav-top{
   font-size:3rem;
   text-decoration:none;
   text-align: center;
